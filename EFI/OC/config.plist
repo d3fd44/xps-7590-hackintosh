@@ -571,6 +571,10 @@
 				<string>Internal@0,31,3</string>
 				<key>alc-delay</key>
 				<integer>500</integer>
+				<key>alc-layout-id</key>
+				<data>
+				SAAAAA==
+				</data>
 				<key>alc-verbs</key>
 				<data>
 				AQAAAA==
@@ -774,6 +778,24 @@
 				<string></string>
 				<key>MinKernel</key>
 				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>BundlePath</key>
+				<string>SimpleHDA.kext</string>
+				<key>Comment</key>
+				<string>Restore native AppleHDA on macOS Tahoe</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/SimpleHDA</string>
+				<key>MaxKernel</key>
+				<string>25.99.99</string>
+				<key>MinKernel</key>
+				<string>25.0.0</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
@@ -1968,7 +1990,7 @@
 				Rg==
 				</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 debug=0x100 -wegnoegpu agdpmod=vit9696 -igfxblt igfxonln=1 alcid=72 alcdelay=500 alcverbs=1 -alcbeta -lilubetaall -no_compat_check -ibtcompatbeta</string>
+				<string>-v keepsyms=1 debug=0x100 -wegnoegpu agdpmod=vit9696 -igfxblt igfxonln=1 alcid=72 alcdelay=500 alcverbs=1 -alcbeta -lilubetaall -no_compat_check -ibtcompatbeta shda-lang=en</string>
 				<key>csr-active-config</key>
 				<data>
 				AwgAAA==
