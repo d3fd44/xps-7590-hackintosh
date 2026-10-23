@@ -577,15 +577,9 @@
 				</data>
 				<key>device_type</key>
 				<string>Audio Controller</string>
-				<key>device-id</key>
-				<data>
-				cKEAAA==
-				</data>
-				<key>hda-gfx</key>
-				<string>onboard-1</string>
 				<key>layout-id</key>
 				<data>
-				HgAAAA==
+				EAAAAA==
 				</data>
 				<key>model</key>
 				<string>Realtek ALC298 (Dell XPS 15 7590)</string>
@@ -1974,7 +1968,7 @@
 				Rg==
 				</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 debug=0x100 -wegnoegpu agdpmod=vit9696 -igfxblt igfxonln=1 alcid=30 alcdelay=500 alcverbs=1 -lilubetaall -no_compat_check -ibtcompatbeta</string>
+				<string>-v keepsyms=1 debug=0x100 -wegnoegpu agdpmod=vit9696 -igfxblt igfxonln=1 alcid=16 alcdelay=500 alcverbs=1 -lilubetaall -no_compat_check -ibtcompatbeta</string>
 				<key>csr-active-config</key>
 				<data>
 				AwgAAA==
